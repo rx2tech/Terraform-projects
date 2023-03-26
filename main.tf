@@ -1,11 +1,11 @@
 # Specify the AWS details
 provider "aws" {
-  region = "ap-south-1"
+  region = "us-east-2a"
 }
 
 # Specify the EC2 details
 resource "aws_instance" "example" {
-  ami           = "ami-03d3eec31be6ef6f9"
+  ami           = "ami-0568936c8d2b91c4e"
   instance_type = "t2.micro"
 }
 
